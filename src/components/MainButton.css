@@ -1,0 +1,42 @@
+.container
+{
+    margin-top: 5%;
+    margin-left: 16.5%;
+    margin-right: 20%;
+}
+.heading
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #4F4F4F;
+    margin-bottom: 2rem;
+}
+.container div
+{
+    margin-bottom: 2rem;
+}
+.container .first,.container .second,.container .third,.container .fourth,.container .seventh,.container .eighth
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-gap: 10%; */
+}
+.container .fifth
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10rem;
+}
+.container .sixth
+{
+    display: flex;
+    gap: 12.5%;
+}
+@media screen and (max-width:100px)
+{
+    .container
+    {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
